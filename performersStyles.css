@@ -1,0 +1,46 @@
+﻿body {
+}
+
+hgroup {
+    padding: 10px;
+    background: linear-gradient(to right, rgb(255,0,0,0), rgb(250,245,245,0.8), rgb(250,245,245,0.8));
+    border-radius: 5px;
+}
+
+.jumbotron {
+    background-image: linear-gradient(rgb(255,0,0,0), rgb(250,245,245,0.3), white);
+}
+
+.jumbotron > h1 {
+    text-align: center;
+    back
+}
+
+h1 {
+    /*text-align: center;*/
+}
+
+img {
+    max-width: 400px;
+    overflow: hidden;
+}
+
+audio {
+    width: 100%;
+}
+
+a {
+    color: #00437a;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show > .nav-link {
+    color: #ffffff;
+    background-color: #00437a;
+}
+
+.row {
+    margin: 20px 0px;
+}

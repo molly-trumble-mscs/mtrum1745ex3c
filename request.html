@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Request Service</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="performersStyles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-light navbar-light">
+            <!-- Brand -->
+            <a class="navbar-brand" href="home.html">Perfect Performers</a>
+
+            <!-- Links -->
+            <ul class="navbar-nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="services.html" id="navbardrop" data-toggle="dropdown">Services
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="weddings.html">Weddings</a>
+                        <a class="dropdown-item" href="otherEvents.html">Other Events</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="options.html">Music Options</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="samples.html">Music Samples</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="request.html">Send Request</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="jumbotron">
+            <h1>Request Service</h1>
+        </div>
+        <div class="row flex-row-reverse"  style="margin: 0px;">
+            <form class="col-lg-9 col-sm-12 second">
+                <div class="form-row">
+                    <div class="form-group  col-md-6">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="form-group  col-md-3">
+                        <label for="phone">Phone Number:</label>
+                        <input type="phone" class="form-control" id="phone">
+                    </div>
+                    <div class="form-group  col-md-3">
+                        <label for="email">Email address:</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                </div>
+                <div class="form-row">
+
+                    <div class="form-group col-md-4">
+                        <label>Event Type:</label>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="event" value="wedding" />Wedding</label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="event" value="concert" />Concert</label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="event" value="fundraisor" />Fundraisor</label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="event" value="social" />Social Event</label>
+                        </div>
+                        <div class="radio">
+                            <label for="other">
+                                <input type="radio" name="event" value="other" />Other Event:</label>
+                            <input class="form-control" type="text" id="other" />
+                        </div>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="musicStyle">Prefered Music Style:</label>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input" value="classic">Classic
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input" value="bluegrass">Bluegrass
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input" value="folk">Irish & Folk
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="dateTIme">Date and Time:</label>
+                        <input type="text" class="form-control" id="dateTime">
+                    </div>
+                </div>
+                <div class="form-group form-row">
+                    <label for="comment">Comments:</label>
+                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit Request</button>
+            </form>
+
+            <div class="col-lg-3 col-sm-12 first" style="background-image: url('https://images.pexels.com/photos/42260/business-card-contact-business-cards-business-42260.png?auto=compress&cs=tinysrgb&dpr=2&h=350'); background-position:center; background-size:cover; margin-top:15px;">
+                <div class="p-2" style="background-color: rgb(255,255,255,.8); margin: 20px -15px">
+                <h2>Contact Info</h2>
+                <p>(123)-456-7890</p>
+                <p><a href="mailto:info@perfectperformers.com">info@perfectperformers.com</a></p>
+                <p>Minneapolis, MN</p>
+                    </div>
+            </div>
+        </div>
+        
+        <footer class="footer text-center m-5">
+            <hr />© 2018 Perfect Performers - Minneapolis, MN
+        </footer>
+    </div>
+</body>
+</html>
