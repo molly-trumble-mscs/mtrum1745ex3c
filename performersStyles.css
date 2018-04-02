@@ -1,27 +1,47 @@
 ﻿body {
 }
 
+h1, h2, h3 {
+    font-variant: small-caps;
+    /*color: #994444;*/
+}
+
 hgroup {
-    padding: 10px;
     background: linear-gradient(to right, rgb(255,0,0,0), rgb(250,245,245,0.8), rgb(250,245,245,0.8));
+    /*background-color: rgb(255,255,255,.8);*/
     border-radius: 5px;
+    text-align: right;
+}
+
+.carousel, .jumbotron:first-of-type {
+    margin-top: 70px;
 }
 
 .jumbotron {
+    /*background-color: #e9ecef;*/
     background-image: linear-gradient(rgb(255,0,0,0), rgb(250,245,245,0.3), white);
 }
 
+/*.jumbotron:first-of-type {
+    background-image: url('https://images.pexels.com/photos/210854/pexels-photo-210854.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb');
+    background-size: cover;
+}*/
+
 .jumbotron > h1 {
     text-align: center;
-    back
 }
 
-h1 {
-    /*text-align: center;*/
+h3 {
+    text-align: center;
+}
+
+figure {
+    max-height: 270px;
+    clip:auto;
 }
 
 img {
-    max-width: 400px;
+    /*max-width: 400px;*/
     overflow: hidden;
 }
 
@@ -29,18 +49,44 @@ audio {
     width: 100%;
 }
 
-a {
-    color: #00437a;
+.navbar {
+    background-color: #f5ecef;
+    /*background-color: #e9ecef;*/
 }
 
-.navbar-light .navbar-nav .active > .nav-link, 
-.navbar-light .navbar-nav .nav-link.active, 
-.navbar-light .navbar-nav .nav-link.show, 
-.navbar-light .navbar-nav .show > .nav-link {
-    color: #ffffff;
+a, .btn-link, 
+.navbar-light .navbar-nav .nav-link, 
+.dropdown-menu .dropdown-item {
+    color: #00437a;
+    font-variant: small-caps;
+}
+
+a:hover, .btn-link:hover {
+    text-decoration: none;
+    color: gray;
+}
+
+.btn-primary,
+.navbar-light .nav-pills .nav-link.active,
+.navbar-light .nav-pills .show > .nav-link {
     background-color: #00437a;
 }
 
-.row {
-    margin: 20px 0px;
+.dropdown-menu, .dropdown-menu .dropdown-item:hover {
+    background-color: #f5ecef;
+    color: gray;
 }
+.dropdown:hover .dropdown-menu {
+    display: block;
+    border: none;
+    border-radius: unset;
+}
+/*.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link,
+.dropdown-menu .dropdown-item:focus,
+.btn-primary {
+    color: #ffffff;
+    background-color: #00437a;
+}*/

@@ -13,64 +13,117 @@
 </head>
 <body>
     <div class="container">
-        <nav class="navbar navbar-expand-lg bg-light navbar-light">
+            <nav class="navbar navbar-expand-md fixed-top navbar-light ">
+
             <!-- Brand -->
             <a class="navbar-brand" href="home.html">Perfect Performers</a>
 
-            <!-- Links -->
-            <ul class="navbar-nav nav-pills">
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#performersNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="performersNav">
 
-                <!-- Dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="services.html" id="navbardrop" data-toggle="dropdown">Services
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="weddings.html">Weddings</a>
-                        <a class="dropdown-item" href="otherEvents.html">Other Events</a>
-                    </div>
-                </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="options.html">Music Options</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="samples.html">Music Samples</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="request.html">Send Request</a>
-                </li>
-            </ul>
+                <!-- Links -->
+                <ul class="navbar-nav nav-pills ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="services.html" id="navbardrop">Services
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="weddings.html">Weddings</a>
+                            <a class="dropdown-item" href="otherEvents.html">Other Events</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="options.html">Music Options</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="samples.html">Music Samples</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="testimonials.html">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faqs.html">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" href="request.html">Send Request</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
         <div class="jumbotron">
             <h1>About</h1>
         </div>
         <div class="row flex-row-reverse" style="margin: 0px;">
-            
-            <div class="col-lg-9 col-sm-12 second">
-            <h2>Perfect Performers</h2>
-            <p>We are a group of well trained and experienced musicians who love what we do while being dedicated to providing professional quality musical services to our customers. We&#39;ve received numerous awards for our performances and are constantly hearing enthusiastic feedback about our services from our many clients that have worked with our team on a friendly and professional basis.</p>
-            <img class="img-responsive float-right p-2" src="https://images.unsplash.com/photo-1465847899084-d164df4dedc6?ixlib=rb-0.3.5&s=35f5e0cd6e6ae736f274b299b3922a49&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb" />
-            <p>It took just a little encouragment from people within the community to transform what started out as mearly a few friends meeting together on the weekends to share music. It grew to an organization of about a dozen musicans providing music for all sorts of events in the community. </p>
-            <p>We provide many combinations of instruments and musical styles to service customers and enjoying every moment of it. From the inital contact with a client till the exciting day of the event, we make it our goal to engage with them in the most helpful way so that they receive exactly what they need to give their guests a satisfying experience.</p>
-     
+
+            <div class="col-lg-9 second">
+                <h2>Perfect Performers</h2>
+                <p>We are a group of well trained and experienced musicians who love what we do while being dedicated to providing professional quality musical services to our customers. We&#39;ve received numerous awards for our performances and are constantly hearing enthusiastic feedback about our services from our many clients that have worked with our team on a friendly and professional basis.</p>
+<!--                <img class="img-fluid float-right p-2" src="https://images.unsplash.com/photo-1465847899084-d164df4dedc6?ixlib=rb-0.3.5&s=35f5e0cd6e6ae736f274b299b3922a49&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb" />-->
+                <p>It took just a little encouragment from people within the community to transform what started out as mearly a few friends meeting together on the weekends to share music. It grew to an organization of about a dozen musicans providing music for all sorts of events in the community. </p>
+                <p>We provide many combinations of instruments and musical styles to service customers and enjoying every moment of it. From the inital contact with a client till the exciting day of the event, we make it our goal to engage with them in the most helpful way so that they receive exactly what they need to give their guests a satisfying experience.</p>
+
             </div>
-            <div class="col-md-3 first">
-                <h2>Awards</h2>
+            <div class="col-lg-3 first text-light rounded" style="background-image: url('https://images.unsplash.com/photo-1465847899084-d164df4dedc6?ixlib=rb-0.3.5&s=35f5e0cd6e6ae736f274b299b3922a49&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb'); background-size: cover">
+                <div class="table-responsive table-sm" style="background-color: rgb(0,0,0,.2); ">
+                    <h2 class="text-center py-4">Awards</h2>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Award</th>
+                                <th>Year</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Most Entertaining</td>
+                                <td>2016</td>
+                            </tr>
+                            <tr>
+                                <td>Best Music Service</td>
+                                <td>2016</td>
+                            </tr>
+                            <tr>
+                                <td>Friendliest Musicians</td>
+                                <td>2017</td>
+                            </tr>
+                            <tr>
+                                <td>Stunning Performance</td>
+                                <td>2017</td>
+                            </tr>
+                            <tr>
+                                <td>Audience Choice</td>
+                                <td>2017</td>
+                            </tr>
+                            <tr>
+                                <td>Most Professional Amateurs</td>
+                                <td>2018</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <!--
                 <ul>
-                <li>award, from, year</li>
-                <li>award, from, year</li>
-                <li>award, from, year</li>
-                <li>award, from, year</li>
-                <li>award, from, year</li>
-                <li>award, from, year</li>
-            </ul>
+                <li>Most Entertaining, 2016</li>
+                <li>Best Music Service, 2016</li>
+                <li>Friendliest Musicians, 2017</li>
+                <li>Stunning Performance, 2017</li>
+                <li>Audience Choice, 2017</li>
+                <li>Most Professional Amateurs, 2018</li>
+                </ul>-->
             </div>
         </div>
         <footer class="footer text-center m-5">
-            <hr />© 2018 Perfect Performers - Minneapolis, MN
+            <hr />
+            © 2018 Perfect Performers - Minneapolis, MN
         </footer>
     </div>
 </body>

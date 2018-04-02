@@ -12,43 +12,57 @@
 </head>
 <body>
     <div class="container">
-<nav class="navbar navbar-expand-lg bg-light navbar-light">
+        <nav class="navbar navbar-expand-md fixed-top navbar-light ">
+
             <!-- Brand -->
             <a class="navbar-brand" href="home.html">Perfect Performers</a>
 
-            <!-- Links -->
-            <ul class="navbar-nav nav-pills">
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#performersNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="performersNav">
 
-                <!-- Dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="services.html" id="navbardrop" data-toggle="dropdown">Services
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="weddings.html">Weddings</a>
-                        <a class="dropdown-item" href="otherEvents.html">Other Events</a>
-                    </div>
-                </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="options.html">Music Options</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="samples.html">Music Samples</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="request.html">Send Request</a>
-                </li>
-            </ul>
+                <!-- Links -->
+                <ul class="navbar-nav nav-pills ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="services.html" id="navbardrop">Services
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="weddings.html">Weddings</a>
+                            <a class="dropdown-item" href="otherEvents.html">Other Events</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="options.html">Music Options</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="samples.html">Music Samples</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="testimonials.html">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faqs.html">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" href="request.html">Send Request</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
         <div class="jumbotron">
             <h1>Music Style Options</h1>
         </div>
         <div class="row">
             <div class="col-lg-8">
-                <img class="img-responsive float-left" src="http://www.hoax-slayer.com/images/violin.jpg" style="max-width: 150px;">
+                <img class="img-fluid float-left" src="http://www.hoax-slayer.com/images/violin.jpg" width="170" />
                 <h2>Classic music</h2>
                 <p>
                     Choose from a variety of instrument combinations and pieves ranging from classical standards to graceful arrangments of more modern compositions. Rest easy with delightfully simple guitar and violin, raise your spirits with a peppy string trio, or experience the calming effect of a harp and flute duet. Perfect for a wedding!</p>
@@ -68,7 +82,7 @@
         </div>
         <div class="row">
             <div class="col-lg-8">
-                <img class="img-responsive float-right" src="http://moziru.com/images/instrument-clipart-bluegrass-music-6.jpg" style="max-width: 200px;">
+                <img class="img-fluid float-right" src="http://moziru.com/images/instrument-clipart-bluegrass-music-6.jpg" width="200">
                 <h2>Bluegrass music</h2>
                 <p>
                     This rousing style is typically played by instruments such as fiddle, banjo, mandolin, double bass and is more popular for autumn outdoor events. From original compositions to good old fashioned gospel tunes, bluegrass music is sure to keep your audience engaged. If you looking for somthing upbeat, this is the way to go for a toe tapping good time!</p>
@@ -87,7 +101,7 @@
         </div>
         <div class="row">
             <div class="col-lg-8">
-                <img class="img-responsive float-left" src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Double_harp.JPG" style="max-width: 150px;">
+                <img class="img-fluid float-left" src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Double_harp.JPG" width="170">
                 <h2>Irish & Folk music</h2>
                 <p>
                     It&#39;s back to the old and ancient days with this style. Irish whistle, fiddle or flute accompanied by guitar or folk harp or even accordion creates an easy-going nostalgic atmosphere that will bring back memories. This style is frequently requested for things like birthdays, aniversaries, festivals and fundraisors.</p>

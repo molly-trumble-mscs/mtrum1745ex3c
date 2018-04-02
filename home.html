@@ -12,17 +12,66 @@
 </head>
 <body>
     <div class="container">
-        <nav class="navbar navbar-expand-lg bg-light navbar-light">
+        <nav class="navbar navbar-expand-md fixed-top navbar-light ">
+
             <!-- Brand -->
             <a class="navbar-brand" href="home.html">Perfect Performers</a>
 
-            <!-- Links -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#performersNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="performersNav">
+
+
+                <!-- Links -->
+                <ul class="navbar-nav nav-pills ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="services.html" id="navbardrop">Services
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="weddings.html">Weddings</a>
+                            <a class="dropdown-item" href="otherEvents.html">Other Events</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="options.html">Music Options</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="samples.html">Music Samples</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="testimonials.html">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faqs.html">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" href="request.html">Send Request</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+
+
+        <!--        <nav class="navbar navbar-expand-lg bg-light navbar-light">
+            
+            <a class="navbar-brand" href="home.html">Perfect Performers</a>
+
+            
             <ul class="navbar-nav nav-pills">
                 <li class="nav-item">
                     <a class="nav-link" href="about.html">About</a>
                 </li>
 
-                <!-- Dropdown -->
+                
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="services.html" id="navbardrop" data-toggle="dropdown">Services
                     </a>
@@ -39,43 +88,103 @@
                     <a class="nav-link" href="samples.html">Music Samples</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="testimonials.html">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="faqs.html">FAQs</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link active" href="request.html">Send Request</a>
                 </li>
             </ul>
-        </nav>
-        <div class="jumbotron text-right" style="background-image: url('https://images.pexels.com/photos/210854/pexels-photo-210854.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb'); background-size: cover">
+        </nav> -->
+
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <figure>
+                        <img class="img-fluid" src="https://images.pexels.com/photos/210854/pexels-photo-210854.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb" alt="violin scroll photo" />
+                    </figure>
+                    <div class="carousel-caption">
+                        <hgroup class="text-dark p-md-2">
+                            <h1>Perfect Performers</h1>
+                            <p>A group of friendly musicians who offer live music service for weddings and other events.</p>
+                        </hgroup>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <figure>
+                        <img class="img-fluid" src="https://images.pexels.com/photos/696214/pexels-photo-696214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="party photo" />
+                    </figure>
+                    <div class="carousel-caption">
+                        <hgroup class="text-dark p-md-2">
+                            <h2>We play party music!</h2>
+                        </hgroup>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <figure>
+                        <img class="img-fluid" src="https://www.publicdomainpictures.net/pictures/120000/velka/violinist-1425526352v9A.jpg" alt="violin photo" />
+                    </figure>
+                    <div class="carousel-caption">
+                        <hgroup class="text-dark p-md-2">
+                            <h2>Click samples below to hear us play!</h2>
+                        </hgroup>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+        </div>
+
+        <!--<div class="jumbotron text-right" style="background-image: url('https://images.pexels.com/photos/210854/pexels-photo-210854.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb'); background-size: cover">
             <hgroup>
                 <h1>Perfect Performers</h1>
                 <p>A group of friendly musicians who offer live music service for weddings and other events.</p>
             </hgroup>
-        </div>
-        <p>This is a paragraph about the group of musicains and what they do with a link the the about page.</p>
+        </div>-->
         <div class="row text-center" style="margin: 50px 0px">
             <div class="col-md-4">
-                <h2><a href="http://">Events</a></h2>
-                <p>Nullam et metus enim. Sed rutrum enim turpis, quis cursus urna consequat ut. Nam vitae enim tincidunt, tristique erat id, faucibus turpis.</p>
-            </div>
-            <div class="col-md-4">
                 <h2><a href="options.html">Music Options</a></h2>
-                <p>Nullam et metus enim. Sed rutrum enim turpis, quis cursus urna consequat ut. Nam vitae enim tincidunt, tristique erat id, faucibus turpis.</p>
+                <p>Take a look at what kinds of music we specialize in and the different instrument combinations that we offer. You&#39;ll get everything from the classics to unique modern arrangments.</p>
             </div>
             <div class="col-md-4">
                 <h2><a href="samples.html">Samples</a></h2>
-                <p>Nullam et metus enim. Sed rutrum enim turpis, quis cursus urna consequat ut. Nam vitae enim tincidunt, tristique erat id, faucibus turpis.</p>
+                <p>Listen to our best performances of commonly played peices. We have samples available from the three general music styles that we typically perform.</p>
+            </div>
+            <div class="col-md-4">
+                <h2><a href="otherEvents.html">Events</a></h2>
+                <p>This is the place to go if your planning a concert, fundraisor, anniversay, or any other special event other then a wedding. </p>
             </div>
         </div>
         <div class="jumbotron col-12 text-center">
             <h1><a href="weddings.html">Wedding Music</a></h1>
-            <p>Nullam et metus enim. Sed rutrum enim turpis, quis cursus urna consequat ut. Nam vitae enim tincidunt, tristique erat id, faucibus turpis.</p>
+            <p>If your planning an upcomming wedding, we can help! We provide helpful information about what to expect and are well experienced in making this milestone special with our moving music.</p>
         </div>
         <div class="row text-center" style="margin: 50px 0px">
             <div class="col-md-6">
-                <h2><a href="http://">FAQs</a></h2>
-                <p>Nullam et metus enim. Sed rutrum enim turpis, quis cursus urna consequat ut. Nam vitae enim tincidunt, tristique erat id, faucibus turpis.</p>
+                <h2><a href="faqs.html">FAQs</a></h2>
+                <p>Have a question? See if someone else has already asked! We&#39;ve listed our answers to the questions that are most commonly asked.</p>
             </div>
             <div class="col-md-6">
                 <h2><a href="request.html">Contact Us</a></h2>
-                <p>Nullam et metus enim. Sed rutrum enim turpis, quis cursus urna consequat ut. Nam vitae enim tincidunt, tristique erat id, faucibus turpis.</p>
+                <p>If your ready to take advantage of our services, or if you just want to know more, visit our contact page to make a request, call us, or send an email.</p>
             </div>
         </div>
         <div class="jumbotron col-12 text-center">
@@ -84,9 +193,10 @@
             </p>
             <em>~ Some Person, City, ST</em>
         </div>
-        
+
         <footer class="footer text-center m-5">
-            <hr />© 2018 Perfect Performers - Minneapolis, MN
+            <hr />
+            © 2018 Perfect Performers - Minneapolis, MN
         </footer>
     </div>
 </body>

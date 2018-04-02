@@ -8,62 +8,80 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="performersStyles.css" rel="stylesheet" />
 </head>
 <body>
     <div class="container">
-        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <nav class="navbar navbar-expand-md fixed-top navbar-light ">
+
             <!-- Brand -->
             <a class="navbar-brand" href="home.html">Perfect Performers</a>
 
-            <!-- Links -->
-            <ul class="navbar-nav nav-pills">
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#performersNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="performersNav">
 
-                <!-- Dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="services.html" id="navbardrop" data-toggle="dropdown">Services
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="weddings.html">Weddings</a>
-                        <a class="dropdown-item" href="otherEvents.html">Other Events</a>
-                    </div>
-                </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="options.html">Music Options</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="samples.html">Music Samples</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="request.html">Send Request</a>
-                </li>
-            </ul>
+                <!-- Links -->
+                <ul class="navbar-nav nav-pills ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="services.html" id="navbardrop">Services
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="weddings.html">Weddings</a>
+                            <a class="dropdown-item" href="otherEvents.html">Other Events</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="options.html">Music Options</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="samples.html">Music Samples</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="testimonials.html">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faqs.html">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" href="request.html">Send Request</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
         <div class="jumbotron">
             <h1>Services</h1>
         </div>
-        <div class="row">
-            <div class="col-md-9 ">
-            <p>It took just a little encouragment from people within the community to transform what started out as mearly a few friends meeting together on the weekends to share music. It grew to an organization of about a dozen musicans providing music for all sorts of events in the community. </p>
-            <p>We provide many combinations of instruments and musical styles to service customers and enjoying every moment of it. From the inital contact with a client till the exciting day of the event, we make it our goal to engage with them in the most helpful way so that they receive exactly what they need to give their guests a satisfying experience.</p>
-     
+        <p>
+            Perfect Perfomers has extensive exeperience in providing its customers with just the right music for their special occassion. Throughout the years, we've observed what our customers require for their events and what they like the best of our services. We are confident that you will find among our suggestions exactly what you are looking for to get the most out of what we offer.
+        </p>
+        <div class="row flex-row-reverse">
+            <div class="col-md-9 second">
+                <h2><a href="weddings.html">Weddings</a></h2>
+                <p>
+                    Finally found that special someone? We've got just the right thing for you. Listen to samples of our music to find the perfect fit to complete your joyous occassion. Don't know where to start? That's OK! We'll guide you through this rewarding proccess.
+                </p>
+                <hr />
+                <h2><a href="otherEvents.html">Other Events</a></h2>
+                <p>
+                    Planning a fundraisor or concert series?  Perhaps you've got an up comming graduation party, or maybe just a private social event that needs a little live background music. Whatever your planning, we've got a variety of musical styles to choose from that will ensure that your guests enjoy a memerable occassion.
+                </p>
             </div>
-            <div class="col-md-3">
-                <img class="img-responsive" src=": https://upload.wikimedia.org/wikipedia/commons/8/89/Cello_study.jpg" />
-
+            <div class="col-md-3 first">
+                <img class="img-fluid rounded-circle" src="https://upload.wikimedia.org/wikipedia/commons/8/89/Cello_study.jpg" width="300"/>
             </div>
         </div>
-        <div class="footer">
-            <div class="">
-                (123)-456-7890 | 
-                info@perfectperformers.com | 
-                Minneapolis, MN
-            </div>
-        </div>
-
+        <footer class="footer text-center m-5">
+            <hr />© 2018 Perfect Performers - Minneapolis, MN
+        </footer>
     </div>
 </body>
 </html>
